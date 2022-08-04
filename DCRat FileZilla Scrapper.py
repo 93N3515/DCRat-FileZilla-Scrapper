@@ -1,6 +1,5 @@
 import os
 import base64
-from operator import itemgetter
 
 def search(directory,key):
  for root, dirs, files in os.walk(directory):
